@@ -8,7 +8,7 @@ import {
 const HeaderSearch = () => {
    return(
       <article className='flex justify-around items-center w-4/5 h-28 p-5'>
-         <div className='text-3xl text-zinc-600 uppercase font-bold'>
+         <div className='text-4xl text-zinc-600 uppercase font-bold'>
             Tec-
             <span className='text-purple-700'>e</span>
          </div>

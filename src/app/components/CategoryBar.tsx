@@ -22,7 +22,7 @@ const CategoryBar = () => {
             Oferta do dia
          </span>
          <div className='flex'>
-            <StarIcon />
+            <StarIcon className='mr-2' />
 
             Oferta do dia
          </div>
