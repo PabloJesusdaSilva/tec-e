@@ -1,4 +1,5 @@
 import Banner from './components/Banner';
+import CategoryProduct from './components/CategoryProducts';
 import Header from './partials/Header';
 
 const Home = () => {
@@ -8,6 +9,8 @@ const Home = () => {
 
       <main>
         <Banner />
+
+        <CategoryProduct />
       </main>
     </>
   );
