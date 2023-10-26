@@ -4,7 +4,7 @@ import BannerImage from '@/app/assets/banner.jpg';
 
 const Banner = () => {
    return(
-      <div className='w-full h-[450px]'>
+      <div className='w-full h-[500px] md:h-[450px]'>
          <Image 
             src={BannerImage}
             alt='Image Banner'
