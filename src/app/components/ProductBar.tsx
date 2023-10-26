@@ -6,7 +6,7 @@ const ProductBar = () => {
          </h3>
 
          <nav className='mt-12'>
-            <ul className='flex space-x-12 text-lg font-semibold tracking-wider rounded-full bg-zinc-300'>
+            <ul className='flex space-x-12 text-lg font-semibold tracking-wider rounded-full bg-zinc-100'>
                <li className='py-4 px-8 rounded-full transition-all duration-300 text-zinc-600 hover:text-zinc-200 hover:bg-purple-700'>
                   <span>
                      Celular
