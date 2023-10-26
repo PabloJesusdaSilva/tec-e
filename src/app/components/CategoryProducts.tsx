@@ -10,7 +10,7 @@ import {
 
 const CategoryProduct = () => {
    return(
-      <nav className='flex justify-center w-full py-10'>
+      <nav className='hidden md:flex justify-center w-full py-10'>
          <ul className='flex space-x-32'>
             <li className='flex flex-col items-center space-y-4'>
             <LaptopIcon  

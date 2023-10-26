@@ -6,7 +6,7 @@ import {
 
 const HeaderDetail = () => {
    return(
-      <article className='flex justify-center space-x-44 w-4/6 p-3 border-b-2 tracking-wider'>
+      <article className='hidden md:flex justify-center space-x-44 w-4/6 p-3 border-b-2 tracking-wider'>
          <div>
             <p className='flex font-semibold text-zinc-400'>
                <ShieldCheckIcon className='mr-2' />

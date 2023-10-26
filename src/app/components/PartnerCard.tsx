@@ -8,7 +8,7 @@ const PartnerCard = ({
    image
 }: IImage) => {
    return(
-      <article className='w-5/12 h-80 overflow-hidden rounded-2xl'>
+      <article className='w-12/12 md:w-5/12 h-80 overflow-hidden rounded-2xl'>
          <Image 
             src={image}
             alt=''

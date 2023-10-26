@@ -1,6 +1,6 @@
 const ProductBar = () => {
    return(
-      <div className="flex flex-col items-center w-full my-12">
+      <div className="hidden md:flex flex-col items-center w-full my-12">
          <h3 className='text-5xl text-purple-700 font-bold'>
             Produtos Selecionados
          </h3>

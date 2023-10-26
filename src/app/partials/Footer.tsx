@@ -1,13 +1,13 @@
 const Footer = () => {
    return(
-      <footer className='w-full py-8 px-32 bg-zinc-800 tracking-wider'>
-         <div className='flex space-x-20 flex-1 pb-8 border-b-2 border-zinc-600'>
+      <footer className='w-full px-4 py-8 md:px-32 bg-zinc-800 tracking-wider'>
+         <div className='flex flex-col space-x-0 space-y-6 md:flex-row md:space-x-20 flex-1 pb-8 border-b-2 border-zinc-600'>
             <div className='space-y-4'>
                <h4 className='text-lg text-zinc-300 font-medium'>
                   Sobre nós
                </h4>
 
-               <ul className='text-zinc-500 space-y-3x'>
+               <ul className='text-zinc-500 space-y-3'>
                   <li>
                      <span>
                         Conheça
@@ -21,12 +21,12 @@ const Footer = () => {
                </ul>
             </div>
 
-            <div className='space-y-4 flex-1'>
+            <div className='space-y-4 md:flex-1'>
                <h4 className='text-lg text-zinc-300 font-medium'>
                   Informações úteis
                </h4>
 
-               <ul className='text-zinc-500 space-y-3x'>
+               <ul className='text-zinc-500 space-y-3'>
                   <li>
                      <span>
                         Fale conosco
@@ -60,21 +60,21 @@ const Footer = () => {
                </ul>
             </div>
 
-            <form className='flex flex-col items-center h-72 py-4 px-8 rounded-lg bg-zinc-200'>
+            <form className='w-96 md:flex flex-col items-center h-72 py-4 px-8 rounded-lg bg-zinc-200'>
                <div className='text-center mt-2 uppercase'>
-                  <span className='text-lg text-zinc-600 font-semibold tracking-normal'>
+                  <span className='text-base text-zinc-600 font-semibold tracking-normal'>
                      Cadastre-se e receba nossas
                   </span>
-                  <h5 className='text-2xl text-zinc-700 font-bold'>
+                  <h5 className='text-xl text-zinc-700 font-bold'>
                      Novidades e promoções
                   </h5>
                </div>
 
-               <p className='w-96 mt-5 text-center text-zinc-600 font-medium'>
+               <p className='mt-5 text-center text-zinc-600 font-medium'>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                </p>
 
-               <div className='space-x-4 mt-14'>
+               <div className='flex space-x-4 mt-14'>
                   <input 
                      type='text'
                      placeholder='Seu email'

@@ -5,7 +5,7 @@ import PartnerImage2 from '@/app/assets/partner2.jpg';
 
 const PartnerSection = () => {
    return(
-      <section className='flex justify-around my-32'>
+      <section className='flex flex-col space-y-10 md:justify-around md:space-y-0 my-32'>
          <PartnerCard  
             image={PartnerImage}
          />
