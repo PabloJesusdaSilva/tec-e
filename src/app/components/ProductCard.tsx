@@ -24,7 +24,7 @@ const ProductCard = ({
          />
 
          <div className='mb-4 px-3 pt-5'>
-            <div className='flex w-full justify-evenly'>
+            <div className='flex w-full justify-between'>
                <h4 className='w-72 text-xl text-zinc-600 font-semibold'>
                   {title}
                </h4>
