@@ -1,7 +1,7 @@
 const Footer = () => {
    return(
       <footer className='w-full px-4 py-8 md:px-32 bg-zinc-800 tracking-wider'>
-         <div className='flex flex-col space-x-0 space-y-6 md:flex-row md:space-x-20 flex-1 pb-8 border-b-2 border-zinc-600'>
+         <div className='flex flex-col space-x-0 space-y-6 md:flex-row md:space-x-20 md:space-y-0 flex-1 pb-8 border-b-2 border-zinc-600'>
             <div className='space-y-4'>
                <h4 className='text-lg text-zinc-300 font-medium'>
                   Sobre nós
