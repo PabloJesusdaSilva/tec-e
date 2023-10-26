@@ -2,7 +2,7 @@ import BrandCard from "../components/BrandCard";
 
 const BrandSection = () => {
    return(
-      <section className='flex flex-col items-center w-full my-14'>
+      <section className='flex flex-col items-center w-full mt-16 mb-20'>
          <div className='flex flex-col items-center mb-16'>
             <h2 className='mb-4 text-5xl text-purple-700 font-bold'>
                Navegue por marcas

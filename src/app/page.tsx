@@ -3,6 +3,7 @@ import CategoryProduct from './components/CategoryProducts';
 import ProductBar from './components/ProductBar';
 import BrandSection from './partials/BrandSection';
 import CardSection from './partials/CardSection';
+import Footer from './partials/Footer';
 import Header from './partials/Header';
 import PartnerSection from './partials/PartnerSection';
 
@@ -24,6 +25,8 @@ const Home = () => {
 
         <BrandSection />
       </main>
+
+      <Footer />
     </>
   );
 }

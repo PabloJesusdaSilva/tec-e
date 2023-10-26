@@ -16,7 +16,7 @@ const ProductCard = ({
    oldPrice
 }: ICard) => {
    return(
-      <article className='w-[380px] m-10 shadow-2xl tracking-wider rounded-lg bg-zinc-100'>   
+      <article className='w-[380px] m-10 shadow-2xl tracking-wider rounded-xl bg-zinc-100'>   
          <Image  
             src={image} 
             alt='Product Image'
