@@ -4,7 +4,7 @@ import Product from '@/app/assets/banner.jpg';
 
 const CardSection = () => {
    return(
-      <section className='flex justify-center w-full flex-wrap'>
+      <section className='flex-wrap md:flex-nowrap flex justify-center w-full'>
          <ProductCard 
             image={Product}
             title='MacBook Air de 15 polegadas - Meia-noite'
