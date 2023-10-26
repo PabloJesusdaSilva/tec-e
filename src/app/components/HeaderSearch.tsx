@@ -17,7 +17,7 @@ const HeaderSearch = () => {
             <input 
                type='text'
                placeholder='O que você está buscando?' 
-               className='relative w-[500px] md:w-[800px] py-5 pl-8 rounded-lg tracking-wide font-medium  text-zinc-500 bg-zinc-100'
+               className='relative w-[400px] md:w-[800px] py-5 pl-8 rounded-lg tracking-wide font-medium  text-zinc-500 bg-zinc-100'
             />
 
             <SearchIcon className='relative -top-11 text-zinc-600 md:right-16 md:top-5' />

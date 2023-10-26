@@ -13,7 +13,7 @@ const Banner = () => {
 
          <div className='bg-black/60 w-full h-full relative -top-[100%]' />
 
-         <div className='relative z-20 w-full h-full -top-[190%] pl-10 md:pl-36 tracking-wider'>
+         <div className='relative z-20 -top-[200%] w-full h-full md:-top-[190%] pl-10 md:pl-36 tracking-wider'>
             <h2 className='mb-10 w-4/5 text-5xl md:w-2/6 md:text-6xl font-bold leading-tight text-zinc-50'>
                Conheça os nossos produtos
             </h2>

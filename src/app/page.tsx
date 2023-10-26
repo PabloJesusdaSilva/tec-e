@@ -12,7 +12,7 @@ const Home = () => {
     <>
       <Header />
 
-      <main>
+      <main className='flex flex-col items-center md:flex-row md:flex-row'>
         <Banner />
 
         <CategoryProduct />
